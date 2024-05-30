@@ -9,4 +9,4 @@ do note this repository may include stuff from other people's dotfiles but a bit
 *Preview*
 
 
-<img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Preview.png>
+<img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice.png>
