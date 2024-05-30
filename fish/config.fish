@@ -4,16 +4,20 @@ end
 set fish_greeting
 # Set the Fish prompt
 function fish_prompt
-    echo -n (set_color green)(whoami)(set_color yellow)"❤"(set_color blue)(pwd)">"(set_color normal)
+    echo -n (set_color purple)"^w^"(set_color yellow)"❤"(set_color blue)(pwd)(set_color red)" ~ "(set_color purple)(date)(set_color red)" ~ "(set_color cyan)"RAM: "(free | awk '/Mem:/ {printf("%.0f/%.0f\n", $3/1024, $2/1024)}')(set_color brblue)"
+<🙟  >//< 🙜 >"
 end
 
 
 
-# Display system information with neofetch
-neofetch
 
-# Print a welcome message
-echo "// 𝕎 𝕖 𝕝 𝕔 𝕠 𝕞 𝕖  𝔹 𝕒 𝕔 𝕜  𝔹 𝕚 𝕜 𝕠 ! //"
-echo " 🙚 🙘 🙛 🙙 🙞 🙜 🙟 🙝  🙚 🙘 🙛 🙙 🙞 🙜 🙟 🙝 "
+echo "__          __             __    " | lolcat
+echo "\ \_________\ \____________\ \___" | lolcat
+echo  " \  _ \  _\ _  \  _\ __ \ __\   /" | lolcat
+echo    "  \___/\__/\__/ \_\ \___/\__/\_\_\\" | lolcat
 
-fish_add_path /home/bik/.spicetify
+
+echo "// 𝓦𝓮𝓵𝓬𝓸𝓶𝓮 𝓑𝓪𝓬𝓴 𝓑𝓲𝓴𝓸! ! //" | lolcat
+echo " 🙚 🙘 🙛 🙙 🙞 🙜 🙟 🙝  🙚 🙘 🙛 🙙 🙞 🙜 🙟 🙝 " | lolcat
+
+set -Ux HYPRLAND_INSTANCE_SIGNATURE (hyprctl getinstance)
