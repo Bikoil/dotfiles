@@ -18,4 +18,4 @@ do note this repository may include stuff from other people's dotfiles but a bit
 <img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice2.png>
 
 
-> For the wallpapers, look in the [wallpapers folder](https://github.com/bikoil/dotfiles/wallpapers)
+> For the wallpapers, look in the [wallpapers folder](https://github.com/Bikoil/dotfiles/tree/main/Wallpapers)
