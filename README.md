@@ -6,16 +6,21 @@ idrk about dependencies so you will have to figure that out by yourself
 
 do note this repository may include stuff from other people's dotfiles but a bit customized
 
-*Preview of first rice (not updated)*
+*Preview of first rice (not updated anymore)*
 
 
 <img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice.png>
 
 
-*Preview of second rice (current)*
+*Preview of second rice (not updated anymore)*
 
 
 <img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice2.png>
+
+*Preview of third rice (current)*
+
+
+<img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice3.png>
 
 
 > For the wallpapers, look in the [wallpapers folder](https://github.com/Bikoil/dotfiles/tree/main/Wallpapers)
