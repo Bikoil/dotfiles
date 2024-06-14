@@ -8,9 +8,6 @@ function fish_prompt
 <🙟  >//< 🙜 >"
 end
 
-
-
-
 echo -e "\
 __          __             __    
 \ \_________\ \____________\ \___ 
@@ -22,3 +19,7 @@ __          __             __
 alias update="sudo pacman -Syu && yay"
 
 set -Ux HYPRLAND_INSTANCE_SIGNATURE (hyprctl getinstance)
+
+# Set fish color configuration
+set -U fish_color_autosuggestion '555'  # Light grey
+set -U fish_color_completion '555'      # Light grey
