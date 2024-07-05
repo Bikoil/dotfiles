@@ -25,7 +25,7 @@ do note this repository may include stuff from other people's dotfiles but a bit
 *Preview of fourth rice*
 
 
-
+<img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice4.png>
 
 
 > For the wallpapers, look in the [wallpapers folder](https://github.com/Bikoil/dotfiles/tree/main/Wallpapers)
