@@ -1,0 +1,16 @@
+confirm_os_window_close 0
+
+# BEGIN_KITTY_THEME
+# Alabaster Dark
+include current-theme.conf
+# END_KITTY_THEME
+
+# Font
+
+font_family      Spleen 32x64
+bold_font        auto
+bold_italic_font auto
+
+font_size 14
+
+background_opacity 0.6
