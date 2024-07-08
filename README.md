@@ -34,5 +34,5 @@ do note this repository may include stuff from other people's dotfiles but a bit
 
 > For the wallpapers, look in the [wallpapers folder](https://github.com/Bikoil/dotfiles/tree/main/Wallpapers)
 
-> [!NOTICE]
+> [NOTICE]
 > I did not make any of these wallpapers, all wallpapers were made by different artists
