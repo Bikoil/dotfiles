@@ -1,0 +1,107 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 34,
+  "spacing": 4,
+  "exclusive": true,
+  "gtk-layer-shell": true,
+  "passthrough": false,
+  "fixed-center": true,
+  "modules-left": ["hyprland/workspaces", "hyprland/window"],
+  "modules-right": [
+    "cpu",
+    "memory",
+    "pulseaudio",
+    "clock",
+    "clock#simpleclock",
+    "battery",
+    "battery#bat2",
+    "tray",
+    "custom/power",
+  ],
+  "wlr/workspaces": {
+    "on-click": "activate",
+    "format": "{name}",
+    "all-outputs": true,
+    "disable-scroll": false,
+    "active-only": false,
+  },
+  "tray": {
+    "show-passive-items": true,
+    "spacing": 10,
+  },
+  "clock#simpleclock": {
+        "timezone": "Africa/Cairo",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "{:%I:%M %p}",
+        "format-alt": "{:%Y-%m-%d}",
+  },
+  "clock": {
+    "format": "  {:L%a %d %b}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+  },
+  "cpu": {
+    "format": "  {usage}%",
+    "tooltip": true,
+    "interval": 1,
+  },
+      "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
+      }
+    },
+  "memory": {
+    "format": "  {used:0.2f}G",
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "  muted",
+    "format-icons": {
+      "headphone": " ",
+      "hands-free": "󰂑",
+      "headset": "󰂑",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [" ", " ", " "],
+    },
+    "on-click": "pavucontrol",
+  },
+  "custom/logo": {
+    "format": "",
+    "tooltip": false,
+  },
+  "custom/sep": {
+    "format": "|",
+    "tooltip": false,
+  },
+  "custom/power": {
+    "tooltip": false,
+    "on-click": "shutdown -h now",
+    "format": "⏻ ",
+  },
+}

@@ -31,6 +31,10 @@ do note this repository may include stuff from other people's dotfiles but a bit
 
 <img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice5.png>
 
+[*Preview of sixth rice*](https://github.com/Bikoil/dotfiles/tree/main/SixthRice)
+
+<img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice6.png>
+
 
 > For the wallpapers, look in the [wallpapers folder](https://github.com/Bikoil/dotfiles/tree/main/Wallpapers)
 
