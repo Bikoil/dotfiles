@@ -8,22 +8,17 @@ do note this repository may include stuff from other people's dotfiles but a bit
 
 [*Preview of first rice*](https://github.com/Bikoil/dotfiles/tree/main/FirstRice)
 
-
 <img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice.png>
 
-
 [*Preview of second rice*](https://github.com/Bikoil/dotfiles/tree/main/SecondRice)
-
 
 <img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice2.png>
 
 [*Preview of third rice*](https://github.com/Bikoil/dotfiles/tree/main/ThirdRice)
 
-
 <img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice3.png>
 
 [*Preview of fourth rice*](https://github.com/Bikoil/dotfiles/tree/main/FourthRice)
-
 
 <img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice4.png>
 
@@ -34,6 +29,10 @@ do note this repository may include stuff from other people's dotfiles but a bit
 [*Preview of sixth rice*](https://github.com/Bikoil/dotfiles/tree/main/SixthRice)
 
 <img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice6.png>
+
+[*Preview of seventh rice*](https://github.com/Bikoil/dotfiles/tree/main/SeventhRice)
+
+<img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice7.png>
 
 
 > For the wallpapers, look in the [wallpapers folder](https://github.com/Bikoil/dotfiles/tree/main/Wallpapers)
