@@ -6,6 +6,24 @@ idrk about dependencies so you will have to figure that out by yourself
 
 do note this repository may include stuff from other people's dotfiles but a bit customized
 
+## Dependencies
+- Barebones (You will configure shortcuts yourself)
+```sh
+yay -S lolcat fish hyprpaper unifetch mako rofi waybar kitty grim slurp thunar spleen-font
+```
+  - if your rice has an animated wallpaper, install this package too
+  ```sh
+  yay -S mpvpaper
+  ```
+- All Used Packages
+```sh
+yay -S thunar  firefox code  vesktop obs-studio lolcat fish hyprpaper unifetch mako rofi waybar kitty grim slurp spleen-font
+```
+  - Again, if your rice has an animated wallpaper, install mpvpaper.
+  ```sh
+  yay -S mpvpaper
+  ```
+
 [*Preview of first rice*](https://github.com/Bikoil/dotfiles/tree/main/FirstRice)
 
 <img src=https://raw.githubusercontent.com/Bikoil/dotfiles/main/Rice.png>
